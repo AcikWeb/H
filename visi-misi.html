@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visi & Misi - Go.TrevlD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .text-outline {
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+            color: transparent;
+        }
+        .vision-card:hover .icon-box {
+            transform: scale(1.1) rotate(10deg);
+            background-color: #109a8a;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+    <section class="relative h-[60vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920&q=80" 
+                 class="w-full h-full object-cover opacity-40" alt="Visi Misi Background">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter text-white">
+                Our <span class="text-outline">Purpose</span>
+            </h1>
+            <p class="mt-4 text-teal-500 font-bold tracking-widest uppercase italic">Membangun Masa Depan Pariwisata Indonesia</p>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 md:px-12 max-w-7xl mx-auto -mt-32 relative z-20">
+        <div class="grid md:grid-cols-2 gap-12">
+            
+            <div class="vision-card bg-gray-800/50 backdrop-blur-xl p-10 rounded-[40px] border border-white/10 shadow-2xl transition-all duration-500">
+                <div class="icon-box w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center text-[#109a8a] text-3xl mb-8 transition-all duration-500">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h2 class="text-4xl font-black text-white uppercase mb-6 italic">Visi <span class="text-[#109a8a]">Kami</span></h2>
+                <p class="text-xl leading-relaxed text-gray-300">
+                    "Menjadi platform perjalanan nomor satu di Indonesia yang menginspirasi setiap jiwa untuk menjelajahi keindahan tersembunyi dunia dengan cara yang berkelanjutan, aman, dan tak terlupakan."
+                </p>
+            </div>
+
+            <div class="bg-gray-800/50 backdrop-blur-xl p-10 rounded-[40px] border border-white/10 shadow-2xl">
+                <div class="w-16 h-16 bg-[#109a8a] rounded-2xl flex items-center justify-center text-white text-3xl mb-8">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2 class="text-4xl font-black text-white uppercase mb-6 italic">Misi <span class="text-outline">Kami</span></h2>
+                <ul class="space-y-6">
+                    <li class="flex items-start gap-4">
+                        <span class="text-[#109a8a] font-bold text-2xl">01</span>
+                        <p class="text-gray-300">Menyediakan paket perjalanan berkualitas tinggi dengan harga yang jujur dan transparan.</p>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="text-[#109a8a] font-bold text-2xl">02</span>
+                        <p class="text-gray-300">Mempromosikan destinasi wisata lokal untuk mendukung ekonomi masyarakat di seluruh pelosok Indonesia.</p>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="text-[#109a8a] font-bold text-2xl">03</span>
+                        <p class="text-gray-300">Memberikan pelayanan pelanggan yang responsif dan personal demi kenyamanan perjalanan Anda.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="mt-32 text-center">
+            <h3 class="text-white text-3xl font-black uppercase italic mb-16 tracking-widest">Core <span class="text-[#109a8a]">Values</span></h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="p-6">
+                    <i class="fas fa-heart text-[#109a8a] text-4xl mb-4"></i>
+                    <h4 class="text-white font-bold uppercase tracking-widest">Passion</h4>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-shield-alt text-[#109a8a] text-4xl mb-4"></i>
+                    <h4 class="text-white font-bold uppercase tracking-widest">Integrity</h4>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-leaf text-[#109a8a] text-4xl mb-4"></i>
+                    <h4 class="text-white font-bold uppercase tracking-widest">Nature</h4>
+                </div>
+                <div class="p-6">
+                    <i class="fas fa-users text-[#109a8a] text-4xl mb-4"></i>
+                    <h4 class="text-white font-bold uppercase tracking-widest">Community</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-20 text-center">
+            <a href="index.html" class="inline-block border border-white/20 hover:border-[#109a8a] text-white px-10 py-4 rounded-full transition-all duration-300 hover:bg-[#109a8a] font-bold uppercase tracking-widest">
+                <i class="fas fa-arrow-left mr-2"></i> Kembali ke Beranda
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-white/5 text-center text-gray-500 text-sm italic">
+        &copy; 2026 Go.TrevlD - Explore with Heart.
+    </footer>
+<script>
+    // 1. Efek Scroll Reveal (Elemen muncul saat di-scroll)
+    const revealElements = () => {
+        const cards = document.querySelectorAll('.vision-card, .bg-gray-800\/50, .mt-32');
+        const windowHeight = window.innerHeight;
+        const revealPoint = 100;
+
+        cards.forEach(card => {
+            const cardTop = card.getBoundingClientRect().top;
+            if (cardTop < windowHeight - revealPoint) {
+                card.style.opacity = "1";
+                card.style.transform = "translateY(0)";
+            }
+        });
+    };
+
+    // Inisialisasi posisi awal elemen (Tersembunyi)
+    document.addEventListener('DOMContentLoaded', () => {
+        const cards = document.querySelectorAll('.vision-card, .bg-gray-800\/50, .mt-32');
+        cards.forEach(card => {
+            card.style.opacity = "0";
+            card.style.transform = "translateY(30px)";
+            card.style.transition = "all 0.8s ease-out";
+        });
+        
+        // Jalankan sekali saat load
+        revealElements();
+    });
+
+    // 2. Parallax Background Halus
+    window.addEventListener('scroll', () => {
+        const scrollValue = window.scrollY;
+        const bgImage = document.querySelector('.absolute.inset-0 img');
+        
+        if (bgImage) {
+            // Gambar akan bergerak sedikit lebih lambat dari scroll (efek parallax)
+            bgImage.style.transform = `translateY(${scrollValue * 0.4}px)`;
+        }
+        
+        // Jalankan fungsi reveal
+        revealElements();
+    });
+
+    // 3. Simple Hover Sound Effect (Opsional - Logika saja)
+    // Bisa ditambahkan jika Anda punya file audio pendek untuk interaksi yang lebih nyata
+</script>
+
+
+</body>
+
+</html>
